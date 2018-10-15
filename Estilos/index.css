@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+canvas{
+  height: 300px;
+  width: 300px;
+}
+
+h1{
+  margin: 10px 0;
+  font-family: 'Patua One', cursive;
+  font-family: Patua One;
+  color: purple;
+}
+
+p{
+  margin: 10px 0;
+  color: green;
+}
+
+button{
+  background: white;
+  border: purple 2px solid;
+  width: 150px;
+  height: 50px;
+  color: purple;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 300ms;
+  cursor: pointer;
+}
+
+button:hover{
+  background: purple;
+  color: white;
+  transition: 300ms;
+}
